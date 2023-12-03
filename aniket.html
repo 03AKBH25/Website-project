@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link href="aniket.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1>Job Application Form</h1>
+        <p>Please Fill all the fields</p>
+    </div>
+    <div class="card">
+        <form>
+            <fieldset class="card1">
+                <legend class="det">Personal Details</legend>
+                <label for="first-name">Enter your first name: <input placeholder="first-name" required name="first-name" id="first-name" type="text" /></label>
+                <label for="middle-name">Enter your middle name: <input placeholder="middle-name" required name="middle-name" id="middle-name" type="text" /></label>
+                <label for="last-name">Enter your last name: <input placeholder="last-name" required name="last-name" id="last-name" type="text" /></label>
+                <label for="email">Enter your email: <input placeholder="email@gmail.com" required name="email" id="email" type="email" /></label>
+                <label for="number">Enter your number: <input required name="number" id="number" type="number"/></label>
+                <label>Upload your photo: <input required type="file" id="photo" name="photo" /></label>
+            </fieldset>
+            <fieldset class="card2">
+                <legend class="det">Address</legend>
+                <div>
+                    <label for="city">Address: <input required type="text" id="city" name="city" /></label>
+                    <label>District: <input required type="text" id="district" name="district" /></label>
+                </div>
+                <div>
+                    <label for="city">Pincode: <input required min="100000" max="999999" type="number" id="pincode" name="pincode" /></label>
+                    <label>State: <input required type="text" id="state" name="state" /></label>
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                <legend class="det">Job Details</legend>
+                <label>Applied for:
+                    <select>
+                        <option>(select one)</option>
+                        <option>Head FrontEnd Engineer</option>
+                        <option>Head Backend Engineer</option>
+                        <option>Head Devops Team</option>
+                    </select>
+                </label>
+                <label for="experience">Years of Experience: <input required min="1" max="70" type="number" id="experience" name="experience" /></label>
+                <label for="company">Your Previous Company: <input required type="text" id="company" name="company"/></label>
+                <label for="linkedin">Linkedin Id: <input required type="email" id="linkedin"/></label>
+            </fieldset>
+            <fieldset>
+                <legend class="det">Academic Details</legend>
+                <label for="college">Graduated from(college): <input required type="text" id="college" name="college" /></label>
+                <label for="degree">Degree: <input required type="text" id="degree"/></label>
+                <label for="skills">Skills: <input required type="text" id="skills" name="skills" /></label>
+                <label>Tell us more about your self: <textarea placeholder="your bio" rows="6" cols="30"></textarea></label>
+            </fieldset>
+            <input href="./uday.html" type="submit" value="Submit"/>
+        </form>
+    </div>
+
+
+    
+
+</body>
+</html>

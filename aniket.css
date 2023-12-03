@@ -1,0 +1,41 @@
+body{
+    background-color: #000000;
+}
+.det{
+    font-size: 20px;
+    color: #F4DFC8;
+}
+.card{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid  #F4DFC8 ;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+    color: #F4DFC8;
+}
+input,select,textarea{
+    width: 100%;
+    color: black;
+    background-color: #F4EAE0;
+}
+h1,p{
+    text-align: center;
+    color: #F4DFC8;
+}
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    cursor: pointer;
+}
